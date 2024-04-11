@@ -12,5 +12,9 @@ https://github.com/FranceRafaelSalacut/EMPI_TREE_AUTOMATA.git
 '''
 
 
-print("Hello World")
+
+def main():
+    print("Hello World")
+
+main()
 
