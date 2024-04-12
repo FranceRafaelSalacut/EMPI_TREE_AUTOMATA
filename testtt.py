@@ -1,6 +1,14 @@
+table = []
 
+with open('table', "r") as file:
+    for line in file:
+        line = line.split("\n")[0]
+        line = line.split("\t")
+        rows = []
+        for num in line: 
+            rows.append(num)
 
-str1 = ["1234", 'a', '1', "1asd1", 1, 123]
+        table.append(rows)
 
-for x in str1:
-    print(x.isalnum())
+for row in table:
+    print(row, end= ",\n")
