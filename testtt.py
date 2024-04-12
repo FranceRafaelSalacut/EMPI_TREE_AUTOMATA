@@ -1,6 +1,6 @@
 table = []
 
-with open('table', "r") as file:
+with open('tabletwo', "r") as file:
     for line in file:
         line = line.split("\n")[0]
         line = line.split("\t")
